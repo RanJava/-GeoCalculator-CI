@@ -38,5 +38,6 @@ namespace GeoApp
 
             this.Controls.AddRange(new Control[] { lblBase, txtBase, lblAlt, txtAltura, btnCalcular, lblResultado });
         }
+        
     }
 }
