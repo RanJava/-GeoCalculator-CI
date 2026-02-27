@@ -1,8 +1,6 @@
-// Archivo: FormMenu.cs
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-
 namespace GeoApp
 {
     public partial class Form1 : Form
@@ -15,14 +13,12 @@ namespace GeoApp
         {
             this.Text = "GeoCalculator - Menú";
             this.Size = new Size(320, 230);
-
             this.Controls.Add(btnRectangulo);
             this.Controls.Add(btnCirculo);
             this.Controls.Add(btnTriangulo);
-
             btnRectangulo.Click += (s, e) => new FormRectangulo().ShowDialog();
             btnCirculo.Click += (s, e) => new FormCirculo().ShowDialog();
-            // btnTriangulo.Click += (s, e) => new FormTriangulo().ShowDialog();
+            btnTriangulo.Click += (s, e) => new FormTriangulo().ShowDialog();
         }
     }
 }
