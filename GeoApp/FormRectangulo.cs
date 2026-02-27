@@ -10,7 +10,7 @@ namespace GeoApp
     { 
         private TextBox txtBase = new TextBox { Location = new Point(100, 20), Size = new Size(150, 25) }; 
         private TextBox txtAltura = new TextBox { Location = new Point(100, 60), Size = new Size(150, 25) }; 
-        private Button btnCalcular = new Button { Text = "Calcular", Location = new Point(100, 100), Size = new Size(80, 30) }; 
+        private Button btnCalcular = new Button { Text = "Calcular", Location = new Point(100, 100), Size = new Size(90, 30) }; 
  
         public FormRectangulo() 
         { 
